@@ -1,0 +1,17 @@
+# ビルド成果物 (build-c2w.sh が生成)
+/bin/
+
+# container2wasm のソース (build-c2w.sh が clone する)
+/c2w-src/
+
+# 公式 examples/wasi-browser の参照コピー
+/_ref/
+
+# Node
+node_modules/
+
+# OS / エディタ
+.DS_Store
+*.swp
+
+# NOTE: htdocs/out.wasm (約52MB) は GitHub Pages 配信のため意図的にコミットする。
